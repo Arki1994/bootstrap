@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Noticia+Text);
+/* line 4, ../sass/estilos.scss */
+* {
+  font-family: 'Noticia Text', serif;
+}
+
+/* --HEADER-- */
+/* line 8, ../sass/estilos.scss */
+.navbar {
+  margin: 0;
+}
+/* line 11, ../sass/estilos.scss */
+.navbar .dropdown-menu {
+  background-color: #222;
+  border-color: #080808;
+}
+/* line 15, ../sass/estilos.scss */
+.navbar .dropdown-menu a {
+  color: #9d9d9d;
+}
+
+/* line 22, ../sass/estilos.scss */
+.jumbotron {
+  background-color: #833900;
+  color: #B98F6E;
+  padding: 20px 0;
+  margin: 0;
+  height: 177px;
+}
+
+/* line 29, ../sass/estilos.scss */
+#sprite {
+  width: 47px;
+  height: 47px;
+  background: url(../imgs/facebook.png);
+  margin: 10px auto;
+  padding: 0;
+  position: relative;
+  left: 565px;
+  top: -107px;
+}
+/* line 39, ../sass/estilos.scss */
+#sprite li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+/* line 46, ../sass/estilos.scss */
+#sprite li a {
+  height: 47px;
+  display: block;
+}
+/* line 52, ../sass/estilos.scss */
+#sprite #panel {
+  left: 0px;
+  width: 94px;
+}
+/* line 56, ../sass/estilos.scss */
+#sprite #panel a:hover {
+  background: transparent url("../imgs/facebook.png") 0px -47px no-repeat;
+}
+
+/* --ARTICLE-- */
+/* line 62, ../sass/estilos.scss */
+.post {
+  background-color: #B99B6E;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #833900;
+}
+/* line 68, ../sass/estilos.scss */
+.post .thumb {
+  margin-right: 10px;
+  width: 40%;
+}
+
+/* line 74, ../sass/estilos.scss */
+.clearfix {
+  margin: 0;
+}
+
+/* line 78, ../sass/estilos.scss */
+.post-contenido {
+  padding-right: 30px;
+}
+
+/* line 82, ../sass/estilos.scss */
+.post-title {
+  color: #91470E;
+}
+
+/* line 86, ../sass/estilos.scss */
+.aniversario {
+  position: relative;
+  left: 38px;
+}
+
+/* line 91, ../sass/estilos.scss */
+.botones-article {
+  float: right;
+  margin-right: 30px;
+}
+/* line 95, ../sass/estilos.scss */
+.botones-article .btn-primary {
+  background-color: #833900;
+  border-color: #B98F6E;
+}
+/* line 98, ../sass/estilos.scss */
+.botones-article .btn-primary:hover {
+  background-color: #915C0E;
+}
+
+/* --FOOTER-- */
+/* line 105, ../sass/estilos.scss */
+.container {
+  background-color: #833900;
+  color: #B98F6E;
+  margin: 0;
+  width: 100%;
+}
+
+/* line 111, ../sass/estilos.scss */
+.maps {
+  width: 100%;
+}

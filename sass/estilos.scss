@@ -1,0 +1,113 @@
+//FONTS
+@import url(https://fonts.googleapis.com/css?family=Noticia+Text);
+
+*{
+	font-family: 'Noticia Text', serif;
+}
+/* --HEADER-- */
+.navbar{
+	margin: 0;
+
+	.dropdown-menu{
+		background-color: #222;
+		border-color: #080808;
+
+		a {
+			color: #9d9d9d;
+		}
+	}
+}
+
+
+.jumbotron {
+	background-color: #833900;
+	color: #B98F6E;
+	padding: 20px 0;
+	margin: 0;
+	height: 177px;
+}
+#sprite {
+	width: 47px;
+    height: 47px;
+    background: url(../imgs/facebook.png);
+    margin: 10px auto;
+    padding: 0;
+    position: relative;
+    left: 565px;
+	top: -107px;
+
+    li {
+		margin: 0;
+        padding: 0;
+        list-style: none;
+        position: absolute;
+        top: 0;
+
+        a {
+        	height: 47px;
+            display: block;
+        }
+    }
+
+    #panel {
+    	left: 0px;
+        width: 94px;
+
+        a:hover {
+        	background: transparent url("../imgs/facebook.png") 0px -47px no-repeat;
+        }
+    }
+}
+/* --ARTICLE-- */
+.post {
+	background-color: #B99B6E;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #833900;
+
+	.thumb{
+	margin-right: 10px;
+	width: 40%;
+	}
+}
+
+.clearfix {
+	margin: 0;
+}
+
+.post-contenido {
+	padding-right: 30px;
+}
+
+.post-title{
+	color: #91470E;
+}
+
+.aniversario {
+	position: relative;
+	left: 38px;
+}
+
+.botones-article {
+	float: right;
+	margin-right: 30px;
+
+	.btn-primary {
+	    background-color: #833900;
+    	border-color: #B98F6E;
+    	&:hover{
+			background-color: #915C0E;
+    	}
+    }
+}
+
+/* --FOOTER-- */
+.container {
+	background-color: #833900;
+	color: #B98F6E;
+	margin: 0;
+	width: 100%;
+}
+.maps {
+	width: 100%;
+}
