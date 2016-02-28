@@ -5,6 +5,15 @@
 	font-family: 'Noticia Text', serif;
 }
 /* --HEADER-- */
+
+.dropdown-menu > .active > a {
+	color: #fff;
+	background-color: #080808;
+	&:hover {
+		color: #fff;
+		background-color: #080808;
+	}
+}
 .navbar{
 	margin: 0;
 
@@ -58,7 +67,7 @@
         }
     }
 }
-/* --ARTICLE-- */
+/* --ARTICLE NOTICIAS-- */
 .post {
 	background-color: #B99B6E;
 	padding-bottom: 20px;
@@ -101,17 +110,6 @@
     }
 }
 
-/* --FOOTER-- */
-.container {
-	background-color: #833900;
-	color: #B98F6E;
-	margin: 0;
-	width: 100%;
-}
-.maps {
-	width: 100%;
-}
-
 /* --FORMULARIO -- */
 .section-form {
 	background-color: #B99B6E;
@@ -132,4 +130,45 @@
 			background-color: #915C0E;
     	}
 	}
+}
+
+.contenedorProductos {
+	width: 100%;
+	height: 638px;
+	background-color: #B99B6E;
+	/* --CAROUSEL-- */
+	.myCarousel {
+		float: left;
+		width: 390px;		
+		.item {
+			width: 400px;
+		}		
+	}
+	/* --SECTION PRODUCTOS-- */
+	.infoProductos {		
+		display: inline-block;
+		width: 50%;
+		.tituloProd {
+			margin-left: 280px;
+			width: 100%
+		}
+		.listProductos{
+			margin-left: 7px;
+			background-color: #AC7449;
+			width: 882px;
+			border-bottom: 1px solid #B99B6E;
+		}
+	}
+}
+
+
+/* --FOOTER-- */
+.container {
+	background-color: #833900;
+	color: #B98F6E;
+	margin: 0;
+	width: 100%;
+}
+.maps {
+	width: 100%;
 }
