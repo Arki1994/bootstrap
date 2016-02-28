@@ -4,6 +4,7 @@
 *{
 	font-family: 'Noticia Text', serif;
 }
+/* 1024 768 600 480 420 320 */
 /* --HEADER-- */
 
 .dropdown-menu > .active > a {
@@ -74,11 +75,13 @@
 .video {
 	background-color: #B99B6E;
 	.frameVideo {
-		margin-left: 350px;
+		margin-left: 25%;
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
 }
+
+
 .post {
 	background-color: #B99B6E;
 	padding-bottom: 20px;
@@ -86,8 +89,11 @@
 	border-bottom: 1px solid #833900;
 
 	.thumb{
-	margin-right: 10px;
-	width: 40%;
+		margin-right: 10px;
+		width: 44%;
+		.imgPost {
+			width: 80%;
+		}
 	}
 }
 
@@ -97,6 +103,7 @@
 
 .post-contenido {
 	padding-right: 30px;
+
 }
 
 .post-title{
@@ -145,28 +152,29 @@
 
 .contenedorProductos {
 	width: 100%;
-	height: 638px;
+	height: 100%;
 	background-color: #B99B6E;
 	/* --CAROUSEL-- */
 	.myCarousel {
 		float: left;
-		width: 390px;		
+		width: 29%;	
+		display: inline-block;	
 		.item {
-			width: 400px;
+			width: 100%;
 		}		
 	}
 	/* --SECTION PRODUCTOS-- */
 	.infoProductos {		
 		display: inline-block;
-		width: 50%;
+		width: 70%;
 		.tituloProd {
-			margin-left: 280px;
+			text-align: center;
 			width: 100%
 		}
 		.listProductos{
 			margin-left: 7px;
 			background-color: #AC7449;
-			width: 882px;
+			width: 100%;
 			border-bottom: 1px solid #B99B6E;
 		}
 	}
@@ -219,4 +227,72 @@
 }
 .maps {
 	width: 100%;
+}
+
+@media all and (max-width: 1185px) {
+	#sprite {
+	    left: 445px;
+	}
+}
+
+@media all and (max-width: 950px) {
+	.video{
+		.frameVideo {
+			margin-left: 20%;
+		}
+	}
+
+	#sprite {
+   		left: 328px;
+	}
+}
+
+@media all and (max-width: 821px) {
+	.contenedorOfertas {
+		padding-right: 20px;
+		.odd, .even {
+			display: block;
+			width: 100%;
+		}
+	}
+}
+
+@media all and (max-width: 768px) {
+	.video{
+		.frameVideo {
+			margin-left: 10%;
+		}
+	}
+
+	#sprite {
+    	left: 187px;
+    	top: -77px;
+	}
+}
+
+@media all and (max-width: 650px) {
+	.video{
+		.frameVideo {
+			margin-left: 0%;
+		}
+	}
+}
+
+@media all and (max-width: 562px) {
+	.video{
+		.frameVideo {
+			margin-left: 0%;
+			width: 100%;
+		}
+	}
+}
+@media all and (max-width: 480px) {
+	.post {
+		.thumb{
+			width: 100%;
+			.imgPost {
+				width: 100%;
+			}
+		}
+	}
 }

@@ -4,34 +4,35 @@
   font-family: 'Noticia Text', serif;
 }
 
+/* 1024 768 600 480 420 320 */
 /* --HEADER-- */
-/* line 9, ../sass/estilos.scss */
+/* line 10, ../sass/estilos.scss */
 .dropdown-menu > .active > a {
   color: #fff;
   background-color: #080808;
 }
-/* line 12, ../sass/estilos.scss */
+/* line 13, ../sass/estilos.scss */
 .dropdown-menu > .active > a:hover {
   color: #fff;
   background-color: #080808;
 }
 
-/* line 18, ../sass/estilos.scss */
+/* line 19, ../sass/estilos.scss */
 .navbar {
   margin: 0;
   background: black;
 }
-/* line 22, ../sass/estilos.scss */
+/* line 23, ../sass/estilos.scss */
 .navbar .dropdown-menu {
   background-color: #222;
   border-color: #080808;
 }
-/* line 26, ../sass/estilos.scss */
+/* line 27, ../sass/estilos.scss */
 .navbar .dropdown-menu a {
   color: #9d9d9d;
 }
 
-/* line 33, ../sass/estilos.scss */
+/* line 34, ../sass/estilos.scss */
 .jumbotron {
   background-color: #833900;
   color: #B98F6E;
@@ -40,7 +41,7 @@
   height: 177px;
 }
 
-/* line 40, ../sass/estilos.scss */
+/* line 41, ../sass/estilos.scss */
 #sprite {
   width: 47px;
   height: 47px;
@@ -51,7 +52,7 @@
   left: 565px;
   top: -107px;
 }
-/* line 50, ../sass/estilos.scss */
+/* line 51, ../sass/estilos.scss */
 #sprite li {
   margin: 0;
   padding: 0;
@@ -59,189 +60,194 @@
   position: absolute;
   top: 0;
 }
-/* line 57, ../sass/estilos.scss */
+/* line 58, ../sass/estilos.scss */
 #sprite li a {
   height: 47px;
   display: block;
 }
-/* line 63, ../sass/estilos.scss */
+/* line 64, ../sass/estilos.scss */
 #sprite #panel {
   left: 0px;
   width: 94px;
 }
-/* line 67, ../sass/estilos.scss */
+/* line 68, ../sass/estilos.scss */
 #sprite #panel a:hover {
   background: transparent url("../imgs/facebook.png") 0px -47px no-repeat;
 }
 
 /* --ARTICLE NOTICIAS-- */
-/* line 74, ../sass/estilos.scss */
+/* line 75, ../sass/estilos.scss */
 .video {
   background-color: #B99B6E;
 }
-/* line 76, ../sass/estilos.scss */
+/* line 77, ../sass/estilos.scss */
 .video .frameVideo {
-  margin-left: 350px;
+  margin-left: 25%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 82, ../sass/estilos.scss */
+/* line 85, ../sass/estilos.scss */
 .post {
   background-color: #B99B6E;
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid #833900;
 }
-/* line 88, ../sass/estilos.scss */
+/* line 91, ../sass/estilos.scss */
 .post .thumb {
   margin-right: 10px;
-  width: 40%;
+  width: 44%;
+}
+/* line 94, ../sass/estilos.scss */
+.post .thumb .imgPost {
+  width: 80%;
 }
 
-/* line 94, ../sass/estilos.scss */
+/* line 100, ../sass/estilos.scss */
 .clearfix {
   margin: 0;
 }
 
-/* line 98, ../sass/estilos.scss */
+/* line 104, ../sass/estilos.scss */
 .post-contenido {
   padding-right: 30px;
 }
 
-/* line 102, ../sass/estilos.scss */
+/* line 109, ../sass/estilos.scss */
 .post-title {
   color: #91470E;
 }
 
-/* line 106, ../sass/estilos.scss */
+/* line 113, ../sass/estilos.scss */
 .aniversario {
   position: relative;
   left: 38px;
 }
 
-/* line 111, ../sass/estilos.scss */
+/* line 118, ../sass/estilos.scss */
 .botones-article {
   float: right;
   margin-right: 30px;
 }
-/* line 115, ../sass/estilos.scss */
+/* line 122, ../sass/estilos.scss */
 .botones-article .btn-primary {
   background-color: #833900;
   border-color: #B98F6E;
 }
-/* line 118, ../sass/estilos.scss */
+/* line 125, ../sass/estilos.scss */
 .botones-article .btn-primary:hover {
   background-color: #915C0E;
 }
 
 /* --FORMULARIO -- */
-/* line 125, ../sass/estilos.scss */
+/* line 132, ../sass/estilos.scss */
 .section-form {
   background-color: #B99B6E;
   padding: 1px 66px 1px 0px;
 }
-/* line 128, ../sass/estilos.scss */
+/* line 135, ../sass/estilos.scss */
 .section-form .introForm {
   text-align: center;
   padding-bottom: 30px;
 }
-/* line 131, ../sass/estilos.scss */
+/* line 138, ../sass/estilos.scss */
 .section-form .introForm h2 {
   padding-bottom: 15px;
 }
-/* line 135, ../sass/estilos.scss */
+/* line 142, ../sass/estilos.scss */
 .section-form #btnFormulario {
   margin-left: 518px;
   width: 318px;
   background-color: #833900;
   border-color: #B98F6E;
 }
-/* line 140, ../sass/estilos.scss */
+/* line 147, ../sass/estilos.scss */
 .section-form #btnFormulario:hover {
   background-color: #915C0E;
 }
 
-/* line 146, ../sass/estilos.scss */
+/* line 153, ../sass/estilos.scss */
 .contenedorProductos {
   width: 100%;
-  height: 638px;
+  height: 100%;
   background-color: #B99B6E;
   /* --CAROUSEL-- */
   /* --SECTION PRODUCTOS-- */
 }
-/* line 151, ../sass/estilos.scss */
+/* line 158, ../sass/estilos.scss */
 .contenedorProductos .myCarousel {
   float: left;
-  width: 390px;
-}
-/* line 154, ../sass/estilos.scss */
-.contenedorProductos .myCarousel .item {
-  width: 400px;
-}
-/* line 159, ../sass/estilos.scss */
-.contenedorProductos .infoProductos {
+  width: 29%;
   display: inline-block;
-  width: 50%;
 }
 /* line 162, ../sass/estilos.scss */
-.contenedorProductos .infoProductos .tituloProd {
-  margin-left: 280px;
+.contenedorProductos .myCarousel .item {
   width: 100%;
 }
-/* line 166, ../sass/estilos.scss */
+/* line 167, ../sass/estilos.scss */
+.contenedorProductos .infoProductos {
+  display: inline-block;
+  width: 70%;
+}
+/* line 170, ../sass/estilos.scss */
+.contenedorProductos .infoProductos .tituloProd {
+  text-align: center;
+  width: 100%;
+}
+/* line 174, ../sass/estilos.scss */
 .contenedorProductos .infoProductos .listProductos {
   margin-left: 7px;
   background-color: #AC7449;
-  width: 882px;
+  width: 100%;
   border-bottom: 1px solid #B99B6E;
 }
 
 /* --OFERTAS-- */
-/* line 177, ../sass/estilos.scss */
+/* line 185, ../sass/estilos.scss */
 .contenedorOfertas {
   background-color: #B99B6E;
 }
-/* line 179, ../sass/estilos.scss */
+/* line 187, ../sass/estilos.scss */
 .contenedorOfertas .list-group {
   padding-left: 26px;
   margin: 0px;
 }
-/* line 182, ../sass/estilos.scss */
+/* line 190, ../sass/estilos.scss */
 .contenedorOfertas .list-group .tituloOfertas {
   text-align: center;
 }
-/* line 186, ../sass/estilos.scss */
+/* line 194, ../sass/estilos.scss */
 .contenedorOfertas .list-group .subli {
   text-align: center;
   margin-right: 20px;
   background-color: #B98F6E;
 }
-/* line 192, ../sass/estilos.scss */
+/* line 200, ../sass/estilos.scss */
 .contenedorOfertas .odd {
   display: inline-block;
   width: 49%;
 }
-/* line 197, ../sass/estilos.scss */
+/* line 205, ../sass/estilos.scss */
 .contenedorOfertas .even {
   display: inline-block;
   width: 49%;
 }
-/* line 200, ../sass/estilos.scss */
+/* line 208, ../sass/estilos.scss */
 .contenedorOfertas .even .imgIndiba {
   margin-top: 10px;
   margin-left: 350px;
 }
 
 /* --OSTEOPATIA-- */
-/* line 208, ../sass/estilos.scss */
+/* line 216, ../sass/estilos.scss */
 .osteopatia-list {
   text-align: center;
   padding-right: 20px;
 }
 
 /* --FOOTER-- */
-/* line 214, ../sass/estilos.scss */
+/* line 222, ../sass/estilos.scss */
 .container {
   background-color: #833900;
   color: #B98F6E;
@@ -249,7 +255,71 @@
   width: 100%;
 }
 
-/* line 220, ../sass/estilos.scss */
+/* line 228, ../sass/estilos.scss */
 .maps {
   width: 100%;
+}
+
+@media all and (max-width: 1185px) {
+  /* line 233, ../sass/estilos.scss */
+  #sprite {
+    left: 445px;
+  }
+}
+@media all and (max-width: 950px) {
+  /* line 240, ../sass/estilos.scss */
+  .video .frameVideo {
+    margin-left: 20%;
+  }
+
+  /* line 245, ../sass/estilos.scss */
+  #sprite {
+    left: 328px;
+  }
+}
+@media all and (max-width: 821px) {
+  /* line 251, ../sass/estilos.scss */
+  .contenedorOfertas {
+    padding-right: 20px;
+  }
+  /* line 253, ../sass/estilos.scss */
+  .contenedorOfertas .odd, .contenedorOfertas .even {
+    display: block;
+    width: 100%;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 262, ../sass/estilos.scss */
+  .video .frameVideo {
+    margin-left: 10%;
+  }
+
+  /* line 267, ../sass/estilos.scss */
+  #sprite {
+    left: 187px;
+    top: -77px;
+  }
+}
+@media all and (max-width: 650px) {
+  /* line 275, ../sass/estilos.scss */
+  .video .frameVideo {
+    margin-left: 0%;
+  }
+}
+@media all and (max-width: 562px) {
+  /* line 283, ../sass/estilos.scss */
+  .video .frameVideo {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 291, ../sass/estilos.scss */
+  .post .thumb {
+    width: 100%;
+  }
+  /* line 293, ../sass/estilos.scss */
+  .post .thumb .imgPost {
+    width: 100%;
+  }
 }
