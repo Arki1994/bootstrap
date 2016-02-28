@@ -14,6 +14,7 @@
 		background-color: #080808;
 	}
 }
+
 .navbar{
 	margin: 0;
 
@@ -161,6 +162,33 @@
 	}
 }
 
+/* --OFERTAS-- */
+
+.contenedorOfertas {
+	background-color: #B99B6E;
+	.list-group {
+    	padding-left: 26px;
+    	margin: 0px;
+    	.tituloOfertas{
+    		text-align: center;
+    	}
+
+    	.subli {
+    		text-align: center;
+    		margin-right: 20px;
+    		background-color: #B98F6E;
+    	}
+	}
+	.odd {
+		display: inline-block;
+		width: 49%
+	}
+
+	.even {
+		display: inline-block;
+		width: 49%
+	}
+}
 
 /* --FOOTER-- */
 .container {
