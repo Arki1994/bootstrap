@@ -111,3 +111,25 @@
 .maps {
 	width: 100%;
 }
+
+/* --FORMULARIO -- */
+.section-form {
+	background-color: #B99B6E;
+    padding: 1px 66px 1px 0px;
+    .introForm{
+    	text-align: center;
+    	padding-bottom: 30px;
+    	h2 {
+    		padding-bottom: 15px;
+    	}
+    }
+	#btnFormulario{
+		margin-left: 518px;
+		width: 318px;
+		background-color: #833900;
+    	border-color: #B98F6E;
+    	&:hover{
+			background-color: #915C0E;
+    	}
+	}
+}

@@ -125,3 +125,30 @@
 .maps {
   width: 100%;
 }
+
+/* --FORMULARIO -- */
+/* line 116, ../sass/estilos.scss */
+.section-form {
+  background-color: #B99B6E;
+  padding: 1px 66px 1px 0px;
+}
+/* line 119, ../sass/estilos.scss */
+.section-form .introForm {
+  text-align: center;
+  padding-bottom: 30px;
+}
+/* line 122, ../sass/estilos.scss */
+.section-form .introForm h2 {
+  padding-bottom: 15px;
+}
+/* line 126, ../sass/estilos.scss */
+.section-form #btnFormulario {
+  margin-left: 518px;
+  width: 318px;
+  background-color: #833900;
+  border-color: #B98F6E;
+}
+/* line 131, ../sass/estilos.scss */
+.section-form #btnFormulario:hover {
+  background-color: #915C0E;
+}
