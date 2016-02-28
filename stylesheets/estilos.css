@@ -19,18 +19,19 @@
 /* line 18, ../sass/estilos.scss */
 .navbar {
   margin: 0;
+  background: black;
 }
-/* line 21, ../sass/estilos.scss */
+/* line 22, ../sass/estilos.scss */
 .navbar .dropdown-menu {
   background-color: #222;
   border-color: #080808;
 }
-/* line 25, ../sass/estilos.scss */
+/* line 26, ../sass/estilos.scss */
 .navbar .dropdown-menu a {
   color: #9d9d9d;
 }
 
-/* line 32, ../sass/estilos.scss */
+/* line 33, ../sass/estilos.scss */
 .jumbotron {
   background-color: #833900;
   color: #B98F6E;
@@ -39,7 +40,7 @@
   height: 177px;
 }
 
-/* line 39, ../sass/estilos.scss */
+/* line 40, ../sass/estilos.scss */
 #sprite {
   width: 47px;
   height: 47px;
@@ -50,7 +51,7 @@
   left: 565px;
   top: -107px;
 }
-/* line 49, ../sass/estilos.scss */
+/* line 50, ../sass/estilos.scss */
 #sprite li {
   margin: 0;
   padding: 0;
@@ -58,99 +59,110 @@
   position: absolute;
   top: 0;
 }
-/* line 56, ../sass/estilos.scss */
+/* line 57, ../sass/estilos.scss */
 #sprite li a {
   height: 47px;
   display: block;
 }
-/* line 62, ../sass/estilos.scss */
+/* line 63, ../sass/estilos.scss */
 #sprite #panel {
   left: 0px;
   width: 94px;
 }
-/* line 66, ../sass/estilos.scss */
+/* line 67, ../sass/estilos.scss */
 #sprite #panel a:hover {
   background: transparent url("../imgs/facebook.png") 0px -47px no-repeat;
 }
 
 /* --ARTICLE NOTICIAS-- */
-/* line 72, ../sass/estilos.scss */
+/* line 74, ../sass/estilos.scss */
+.video {
+  background-color: #B99B6E;
+}
+/* line 76, ../sass/estilos.scss */
+.video .frameVideo {
+  margin-left: 350px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 82, ../sass/estilos.scss */
 .post {
   background-color: #B99B6E;
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid #833900;
 }
-/* line 78, ../sass/estilos.scss */
+/* line 88, ../sass/estilos.scss */
 .post .thumb {
   margin-right: 10px;
   width: 40%;
 }
 
-/* line 84, ../sass/estilos.scss */
+/* line 94, ../sass/estilos.scss */
 .clearfix {
   margin: 0;
 }
 
-/* line 88, ../sass/estilos.scss */
+/* line 98, ../sass/estilos.scss */
 .post-contenido {
   padding-right: 30px;
 }
 
-/* line 92, ../sass/estilos.scss */
+/* line 102, ../sass/estilos.scss */
 .post-title {
   color: #91470E;
 }
 
-/* line 96, ../sass/estilos.scss */
+/* line 106, ../sass/estilos.scss */
 .aniversario {
   position: relative;
   left: 38px;
 }
 
-/* line 101, ../sass/estilos.scss */
+/* line 111, ../sass/estilos.scss */
 .botones-article {
   float: right;
   margin-right: 30px;
 }
-/* line 105, ../sass/estilos.scss */
+/* line 115, ../sass/estilos.scss */
 .botones-article .btn-primary {
   background-color: #833900;
   border-color: #B98F6E;
 }
-/* line 108, ../sass/estilos.scss */
+/* line 118, ../sass/estilos.scss */
 .botones-article .btn-primary:hover {
   background-color: #915C0E;
 }
 
 /* --FORMULARIO -- */
-/* line 115, ../sass/estilos.scss */
+/* line 125, ../sass/estilos.scss */
 .section-form {
   background-color: #B99B6E;
   padding: 1px 66px 1px 0px;
 }
-/* line 118, ../sass/estilos.scss */
+/* line 128, ../sass/estilos.scss */
 .section-form .introForm {
   text-align: center;
   padding-bottom: 30px;
 }
-/* line 121, ../sass/estilos.scss */
+/* line 131, ../sass/estilos.scss */
 .section-form .introForm h2 {
   padding-bottom: 15px;
 }
-/* line 125, ../sass/estilos.scss */
+/* line 135, ../sass/estilos.scss */
 .section-form #btnFormulario {
   margin-left: 518px;
   width: 318px;
   background-color: #833900;
   border-color: #B98F6E;
 }
-/* line 130, ../sass/estilos.scss */
+/* line 140, ../sass/estilos.scss */
 .section-form #btnFormulario:hover {
   background-color: #915C0E;
 }
 
-/* line 136, ../sass/estilos.scss */
+/* line 146, ../sass/estilos.scss */
 .contenedorProductos {
   width: 100%;
   height: 638px;
@@ -158,26 +170,26 @@
   /* --CAROUSEL-- */
   /* --SECTION PRODUCTOS-- */
 }
-/* line 141, ../sass/estilos.scss */
+/* line 151, ../sass/estilos.scss */
 .contenedorProductos .myCarousel {
   float: left;
   width: 390px;
 }
-/* line 144, ../sass/estilos.scss */
+/* line 154, ../sass/estilos.scss */
 .contenedorProductos .myCarousel .item {
   width: 400px;
 }
-/* line 149, ../sass/estilos.scss */
+/* line 159, ../sass/estilos.scss */
 .contenedorProductos .infoProductos {
   display: inline-block;
   width: 50%;
 }
-/* line 152, ../sass/estilos.scss */
+/* line 162, ../sass/estilos.scss */
 .contenedorProductos .infoProductos .tituloProd {
   margin-left: 280px;
   width: 100%;
 }
-/* line 156, ../sass/estilos.scss */
+/* line 166, ../sass/estilos.scss */
 .contenedorProductos .infoProductos .listProductos {
   margin-left: 7px;
   background-color: #AC7449;
@@ -186,38 +198,50 @@
 }
 
 /* --OFERTAS-- */
-/* line 167, ../sass/estilos.scss */
+/* line 177, ../sass/estilos.scss */
 .contenedorOfertas {
   background-color: #B99B6E;
 }
-/* line 169, ../sass/estilos.scss */
+/* line 179, ../sass/estilos.scss */
 .contenedorOfertas .list-group {
   padding-left: 26px;
   margin: 0px;
 }
-/* line 172, ../sass/estilos.scss */
+/* line 182, ../sass/estilos.scss */
 .contenedorOfertas .list-group .tituloOfertas {
   text-align: center;
 }
-/* line 176, ../sass/estilos.scss */
+/* line 186, ../sass/estilos.scss */
 .contenedorOfertas .list-group .subli {
   text-align: center;
   margin-right: 20px;
   background-color: #B98F6E;
 }
-/* line 182, ../sass/estilos.scss */
+/* line 192, ../sass/estilos.scss */
 .contenedorOfertas .odd {
   display: inline-block;
   width: 49%;
 }
-/* line 187, ../sass/estilos.scss */
+/* line 197, ../sass/estilos.scss */
 .contenedorOfertas .even {
   display: inline-block;
   width: 49%;
 }
+/* line 200, ../sass/estilos.scss */
+.contenedorOfertas .even .imgIndiba {
+  margin-top: 10px;
+  margin-left: 350px;
+}
+
+/* --OSTEOPATIA-- */
+/* line 208, ../sass/estilos.scss */
+.osteopatia-list {
+  text-align: center;
+  padding-right: 20px;
+}
 
 /* --FOOTER-- */
-/* line 194, ../sass/estilos.scss */
+/* line 214, ../sass/estilos.scss */
 .container {
   background-color: #833900;
   color: #B98F6E;
@@ -225,7 +249,7 @@
   width: 100%;
 }
 
-/* line 200, ../sass/estilos.scss */
+/* line 220, ../sass/estilos.scss */
 .maps {
   width: 100%;
 }

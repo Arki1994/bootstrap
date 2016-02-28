@@ -17,6 +17,7 @@
 
 .navbar{
 	margin: 0;
+	background: black;
 
 	.dropdown-menu{
 		background-color: #222;
@@ -68,7 +69,16 @@
         }
     }
 }
-/* --ARTICLE NOTICIAS-- */
+/* --ARTICLE NOTICIAS-- */	
+
+.video {
+	background-color: #B99B6E;
+	.frameVideo {
+		margin-left: 350px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
 .post {
 	background-color: #B99B6E;
 	padding-bottom: 20px;
@@ -186,8 +196,18 @@
 
 	.even {
 		display: inline-block;
-		width: 49%
+		width: 49%;
+		.imgIndiba {
+			margin-top: 10px;
+			margin-left: 350px;
+		}
 	}
+}
+
+/* --OSTEOPATIA-- */
+.osteopatia-list {
+	text-align: center;
+	padding-right: 20px;
 }
 
 /* --FOOTER-- */
